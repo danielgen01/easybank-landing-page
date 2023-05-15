@@ -3,7 +3,7 @@ import bgintroMobile from "/images/bg-intro-mobile.svg"
 
 const Intro = () => {
   return (
-    <section className=" w-screen pb-10 ">
+    <section className=" w-screen pb-10 block lg:hidden">
       <figure
         style={{ backgroundImage: `url(${bgintroMobile})` }}
         className="bg-no-repeat bg-cover"

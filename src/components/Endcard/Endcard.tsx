@@ -3,6 +3,7 @@ import iconytt from "/images/icon-youtube.svg"
 import icontwitter from "/images/icon-twitter.svg"
 import iconPinterest from "/images/icon-pinterest.svg"
 import iconInsta from "/images/icon-instagram.svg"
+import { RequestButton } from "../RequestButton"
 
 const Endcard = () => {
   return (
@@ -55,9 +56,7 @@ const Endcard = () => {
           Privacy Policy
         </a>
       </div>
-      <button className="bg-gradient-to-r from-lime-green to-bright-cyan px-10 py-3 rounded-full font-bold text-white">
-        Request Invite
-      </button>
+      <RequestButton />
       <p className="text-grayish-blue font-bold">
         © Easybank. All Rights Reserved
       </p>
