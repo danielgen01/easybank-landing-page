@@ -2,7 +2,7 @@ import logo from "/images/logo.svg"
 import { RequestButton } from "../RequestButton"
 const NavDesktop = () => {
   return (
-    <nav className="hidden lg:block h-20 w-screen shadow-sm bg-white">
+    <nav className="hidden  lg:block h-20 w-screen shadow-sm bg-white z-50 relative">
       <div className="nav-content px-20 flex items-center w-screen h-full justify-between">
         <div className="logo">
           <img src={logo} alt="Logo" />

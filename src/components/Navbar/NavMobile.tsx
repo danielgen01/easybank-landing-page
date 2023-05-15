@@ -12,7 +12,7 @@ const NavMobile = () => {
   }
 
   return (
-    <nav className=" h-20 w-screen shadow-sm z-50  lg:hidden px-5">
+    <nav className=" h-20 w-screen shadow-sm lg:hidden px-5 z-50 relative">
       <div className="nav-content px-5 flex h-full w-full items-center justify-between lg:px-20">
         <img src={logo} alt="logo" className="w-1/2 " />
         {!isMenuOpen ? (

@@ -3,14 +3,14 @@ import bgintroMobile from "/images/bg-intro-mobile.svg"
 
 const Intro = () => {
   return (
-    <section className=" w-screen pb-10 block lg:hidden">
+    <section className=" w-screen pb-10 block lg:hidden relative z-10">
       <figure
         style={{ backgroundImage: `url(${bgintroMobile})` }}
-        className="bg-no-repeat bg-cover"
+        className="bg-no-repeat bg-cover relative "
       >
         <img src={Mockups} alt="Mockups-image" className="" />
       </figure>
-      <div className="text flex flex-col items-center gap-5 justify-center px-5 text-left">
+      <div className="text flex flex-col items-center gap-5 justify-center px-5 text-left ">
         {" "}
         <h1 className="text-dark-blue font-semibold text-3xl leading-10">
           Next generation <br /> digital banking
