@@ -9,19 +9,19 @@ const NavDesktop = () => {
         </div>
 
         <div className="links flex items-center gap-8">
-          <a href="#" className="text-grayish-blue font-semibold">
+          <a href="#" className="text-grayish-blue font-semibold hover:text-lime-green">
             Home
           </a>
-          <a href="#" className="text-grayish-blue font-semibold">
+          <a href="#" className="text-grayish-blue font-semibold hover:text-lime-green">
             About
           </a>
-          <a href="#" className="text-grayish-blue font-semibold">
+          <a href="#" className="text-grayish-blue font-semibold hover:text-lime-green">
             Contact
           </a>
-          <a href="#" className="text-grayish-blue font-semibold">
+          <a href="#" className="text-grayish-blue font-semibold hover:text-lime-green">
             Blog
           </a>
-          <a href="#" className="text-grayish-blue font-semibold">
+          <a href="#" className="text-grayish-blue font-semibold hover:text-lime-green">
             Careers
           </a>
         </div>

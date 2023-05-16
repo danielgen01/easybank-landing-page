@@ -29,30 +29,30 @@ const Endcard = () => {
         </g>
       </svg>
       <div className="socials flex  gap-5">
-        <img src={iconfacebook} alt="facebook" className="w-8" />
-        <img src={iconytt} alt="youtube" className="w-8" />
-        <img src={icontwitter} alt="twitter" className="w-8" />
-        <img src={iconPinterest} alt="pinterest" className="w-8" />
-        <img src={iconInsta} alt="insta" className="w-8" />
+        <img src={iconfacebook} alt="facebook" className="w-8 hover:text-lime-green" />
+        <img src={iconytt} alt="youtube" className="w-8 hover:text-lime-green" />
+        <img src={icontwitter} alt="twitter" className="w-8 hover:text-lime-green" />
+        <img src={iconPinterest} alt="pinterest" className="w-8 hover:text-lime-green" />
+        <img src={iconInsta} alt="insta" className="w-8 hover:text-lime-green" />
       </div>
 
       <div className="links flex flex-col gap-3">
-        <a href="#" className="text-white text-center">
+        <a href="#" className="text-white text-center hover:text-lime-green">
           About us
         </a>
-        <a href="#" className="text-white text-center">
+        <a href="#" className="text-white text-center hover:text-lime-green">
           Contact
         </a>
-        <a href="#" className="text-white text-center">
+        <a href="#" className="text-white text-center hover:text-lime-green">
           Blog
         </a>
-        <a href="#" className="text-white text-center">
+        <a href="#" className="text-white text-center hover:text-lime-green">
           Careers
         </a>
-        <a href="#" className="text-white text-center">
+        <a href="#" className="text-white text-center hover:text-lime-green">
           Support
         </a>
-        <a href="#" className="text-white text-center">
+        <a href="#" className="text-white text-center hover:text-lime-green">
           Privacy Policy
         </a>
       </div>
