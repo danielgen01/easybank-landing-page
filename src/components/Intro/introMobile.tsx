@@ -6,7 +6,7 @@ const Intro = () => {
     <section className=" w-screen pb-10 block lg:hidden relative z-10">
       <figure
         style={{ backgroundImage: `url(${bgintroMobile})` }}
-        className="bg-no-repeat bg-cover relative "
+        className="bg-no-repeat bg-cover relative flex justify-center"
       >
         <img src={Mockups} alt="Mockups-image" className="" />
       </figure>
